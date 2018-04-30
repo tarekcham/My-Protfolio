@@ -127,7 +127,6 @@ class Projects extends Component {
               </CardText>
               <CardActions border>
                 <Button colored><a href="https://github.com/tarekcham/Ebooks-sales-App" target='_blank'>GitHub</a></Button>
-                <Button colored><a href="https://tarekcham.github.io/React-lifeCycle-exercise/" target='_blank'>Live Demo</a></Button>
               </CardActions>
               <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />
