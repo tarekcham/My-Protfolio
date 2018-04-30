@@ -3,7 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
-import myPhoto from '../pictures/myPhoto2.png'
+import myPhoto from '../pictures/myPhoto.png'
 
 
 class Resume extends Component {
