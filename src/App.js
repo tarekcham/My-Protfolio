@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom';
 class App extends Component {
   render() {
     return (
-      <div className="demo-big-content">
+      <div  className="demo-big-content">
     <Layout>
-        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Tarek Al Khatib</Link>} scroll>
+        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white', opacity:".8"}} to="/">Tarek Al Khatib</Link>} scroll>
             <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
@@ -17,7 +17,7 @@ class App extends Component {
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">Tarek Al Khatib</Link>}>
+        <Drawer title={<Link style={{textDecoration: 'none', color: 'black', opacity:".8"}} to="/">Tarek Al Khatib</Link>}>
             <Navigation>
               <Link to="/resume">Resume</Link>
               <Link to="/aboutme">About Me</Link>

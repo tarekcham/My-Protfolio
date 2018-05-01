@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 
+const styles = {
+  cardActions:{
+   backgroundColor:"rgb(112, 175, 152)"
+  }
+}
 
 class Projects extends Component {
   constructor(props) {
@@ -23,7 +28,7 @@ class Projects extends Component {
               <CardText>
                 React APP to ask to deliver anything you need from the market. 
               </CardText>
-              <CardActions border>
+              <CardActions border style={styles.cardActions}>
                 <Button colored>   <a href="https://github.com/devugees/react-shopitme" target="_blank"> GitHub</a></Button>
               </CardActions>
               <CardMenu style={{color: '#fff'}}>
@@ -35,11 +40,11 @@ class Projects extends Component {
           {/* Project 1 */}
           <Cell col={4}>
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', backgroundColor:"#70af98"}} >React-Todo-List #1</CardTitle>
+              <CardTitle style={{color: '#fff', height: '176px', backgroundColor:"#70af98"}} >React-Todo-List</CardTitle>
               <CardText>
                 React APP to keep track of all your ToDo
               </CardText>
-              <CardActions border>
+              <CardActions border style={styles.cardActions} >
                 <Button colored>   <a href="https://github.com/tarekcham/React-Too-Do-List" target="_blank"> GitHub</a></Button>
                 <Button colored> <a href="https://tarekcham.github.io/React-Too-Do-List/" target="_blank">Live Demo</a> </Button>
               </CardActions>
@@ -53,11 +58,11 @@ class Projects extends Component {
           {/* Project 2 */}
           <Cell col={4}>
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', backgroundColor:"#70af98"}} >>React-Counter #2</CardTitle>
+              <CardTitle style={{color: '#fff', height: '176px', backgroundColor:"#70af98"}} >>React-Counter</CardTitle>
               <CardText>
                 A React APP to add or decrease numbers
               </CardText>
-              <CardActions border>
+              <CardActions border style={styles.cardActions}>
                 <Button colored> <a href="https://github.com/tarekcham/React-Counter" target="_blank"> GitHub</a></Button>
                 <Button colored> <a href="https://tarekcham.github.io/React-Counter/" target="_blank"> Live Demo</a></Button>
               </CardActions>
@@ -70,11 +75,11 @@ class Projects extends Component {
           {/* Project 3 */}
           <Cell col={4}>
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', backgroundColor:"#70af98"}} >React-Picsum Api #3</CardTitle>
+              <CardTitle style={{color: '#fff', height: '176px', backgroundColor:"#70af98"}} >React-Picsum Api </CardTitle>
               <CardText>
                 grab pictures using Picsum api
               </CardText>
-              <CardActions border>
+              <CardActions border style={styles.cardActions}>
                 <Button colored><a href="https://github.com/tarekcham/React-lifeCycle-exercise" target='_blank'>GitHub</a></Button>
                 <Button colored><a href="https://tarekcham.github.io/React-lifeCycle-exercise/" target='_blank'>Live Demo</a></Button>
               </CardActions>
@@ -88,11 +93,11 @@ class Projects extends Component {
          {/* Project 4 */}
           <Cell col={4}>
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', backgroundColor:"#70af98"}} >Students DB #4</CardTitle>
+              <CardTitle style={{color: '#fff', height: '176px', backgroundColor:"#70af98"}} >Students DB</CardTitle>
               <CardText>
                 A CRUD APP to register new students using Js, Jquery, Node.js, MongoDB
               </CardText>
-              <CardActions border>
+              <CardActions border style={styles.cardActions}>
                 <Button colored>   <a href="https://github.com/tarekcham/StudentsDB" target="_blank"> GitHub</a></Button>
               </CardActions>
               <CardMenu style={{color: '#fff'}}>
@@ -105,11 +110,11 @@ class Projects extends Component {
           {/* Project 5 */}
           <Cell col={4}>
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', backgroundColor:"#70af98"}} >>Online Shop #5</CardTitle>
+              <CardTitle style={{color: '#fff', height: '176px', backgroundColor:"#70af98"}} >>Online Shop </CardTitle>
               <CardText>
                 A shopping online application builded using jquery-bootstrap-mysql-Webpack-neutrino
               </CardText>
-              <CardActions border>
+              <CardActions border style={styles.cardActions}>
                 <Button colored> <a href="https://github.com/tarekcham/My-online-shop" target="_blank"> GitHub</a></Button>
               </CardActions>
               <CardMenu style={{color: '#fff'}}>
@@ -125,7 +130,7 @@ class Projects extends Component {
               <CardText>
                 Ebook Seller App Node.js/ Express app that uses the Stripe API to sell an ebook
               </CardText>
-              <CardActions border>
+              <CardActions border style={styles.cardActions}>
                 <Button colored><a href="https://github.com/tarekcham/Ebooks-sales-App" target='_blank'>GitHub</a></Button>
               </CardActions>
               <CardMenu style={{color: '#fff'}}>
