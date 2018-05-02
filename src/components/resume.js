@@ -16,23 +16,23 @@ class Resume extends Component {
               <img
                 src= {myPhoto}
                 alt="avatar"
-                style={{height: '200px'}}
+                style={{height: '200px', borderRadius: "50%"}}
                  />
             </div>
 
             <h2 style={{paddingTop: '2em'}}>Tarek Al Khatib</h2>
-            <h4 style={{color: 'grey'}}>Programmer</h4>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p> I am an organized person with an eye for details. I am very due to my
+            <h4 style={{color: 'grey'}}>Web Developer</h4>
+            <hr style={{borderTop: '3px solid red', width: '50%'}}/>
+            <p> I am an organized person with an eye for details. I have
                 four years working experience in customer service.
                 I am an passionate Web Developer and gained knowledge and
                 experiences in <b> JS, React, Jquery, Bootstrap, Node.js, MongoDB,
                 MySQL, ES2015, Webpack, git </b>.
-                <hr/>
+                <br/>
                 Currently I am attending one year Course in Web Development, and I am going to finish in the end of June this Year. I have learned the most newest technologies in Web Development JavaScript mainly React framework, JQuery, Node.js, Bootstrap 4, MongoDB, Git. And now I am looking for job opportunity or an internship where I can sharp my Web development skills.
                 </p>
 
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            <hr style={{borderTop: '3px solid red', width: '50%'}}/>
             <h5>Address</h5>
             <p>Elbret-Einstein 25, 14471 Potsdam Germany</p>
             <h5>Phone</h5>
@@ -41,7 +41,7 @@ class Resume extends Component {
             <p>tarek.alkhatib1@gmail.com</p>
             <h5>Web</h5>
             <p>tarek.alkhatib.com</p>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            <hr style={{borderTop: '3px solid red', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
@@ -50,7 +50,7 @@ class Resume extends Component {
             <Education
               startYear={2007}
               endYear={2018}
-              schoolName="DCI Digital Career Institution"
+              schoolName="DCI Digital Career Institue"
               schoolDescription="Qualification course in Full Stack Web
                   Development, one intensive year of training. "
                />
@@ -68,8 +68,8 @@ class Resume extends Component {
 
             <Experience
               startYear={2018}
-              endYear={null}
-              jobName="Translator\volunteer work at Red Cross\potsdam"
+              endYear={"present"}
+              jobName="Translator volunteer work at Red Cross\ Potsdam"
               jobDescription=""
               />
 
@@ -84,7 +84,7 @@ class Resume extends Component {
                 <Experience
                 startYear={2007}
                 endYear={2011}
-                jobName="Customer Service \Cham Bank\ Syria"
+                jobName="Customer Service officer at Cham Bank\ Syria"
                 jobDescription="Performed check cashing, depositing."
                 />
 

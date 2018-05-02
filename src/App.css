@@ -15,7 +15,7 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  min-height: calc(100vh - 5.7em - 0rem);
 }
 
 .projects-grid {
@@ -48,7 +48,7 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
   margin: auto;
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   justify-content: center;
   padding-top: 2em;
 }
@@ -91,7 +91,7 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
   opacity: .5 ;
   padding-top: 5em;
   filter: grayscale(100%);
-
+  border-radius: 50%;
 }
 
 /*.banner-text {
@@ -122,9 +122,6 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 }
 
 .social-links {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
   margin: auto;
 }
 
@@ -139,4 +136,13 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
     opacity: 1 !important;
 }
 
+
+/*for porjects backgroundImages*/
+/*.bgImage {
+  background-image: url(./pictures/shopitme.png);
+  background-size: contain;
+  background-size: 20rem;
+  background-repeat: no-repeat;
+}
+*/
 

@@ -13,7 +13,7 @@ class Contact extends Component {
             <img
               src= {myPhoto}
               alt="avatar"
-              style={{height: '250px'}}
+              style={{height: '250px', borderRadius: "50%"}}
                />
              <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}></p>
 
