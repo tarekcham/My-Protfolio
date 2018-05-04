@@ -1,21 +1,22 @@
 .header-color {
-background: #141E30;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: black !important;  /* fallback for old browsers */
 
 
 }
 
 .landing-grid {
-  background: #141E30;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ /* background: #141E30;  /* fallback for old browsers */
+ /* background: -webkit-linear-gradient(to right, #243B55, #141E30);   Chrome 10-25, Safari 5.1-6 */
+  /*background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: relative;   
   top: 0;
   left: 0;
   width: 100%;
   min-height: calc(100vh - 5.7em - 0rem);
+  background-image: url('./pictures/bgimage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .projects-grid {
@@ -88,7 +89,7 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 
 .avatar-img {
   height: 250px;
-  opacity: .5 ;
+  opacity: 0 ;
   padding-top: 5em;
   filter: grayscale(100%);
   border-radius: 50%;
@@ -106,17 +107,16 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
-  color: white;
+
 }
 
 .banner-text hr {
-  border-top: 5px dotted white;
+  border-top: 5px dotted;
   width: 50%;
   margin: auto;
 }
 
 .banner-text p {
-  color: white;
   font-size: 20px;
   padding: 1em;
 }
@@ -126,13 +126,13 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 }
 
 .social-links i {
-  color: white;
+  color: black;
   font-size: 5em;
   padding: 8px;
 }
 
- a:hover{
-    color: white !important;
+ a:hover ,i:hover{
+    color: blue !important;
     opacity: 1 !important;
 }
 

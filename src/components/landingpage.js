@@ -17,7 +17,7 @@ class Landing extends Component {
 
             <div className="banner-text">
               <h1>Tarek Al Khatib</h1>
-              <h2 style={{color:'white'}}>Full Stack Web Developer</h2>
+              <h2>Full Stack Web Developer</h2>
 
             <hr/>
 
