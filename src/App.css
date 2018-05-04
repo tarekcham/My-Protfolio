@@ -25,9 +25,7 @@ background: black !important;  /* fallback for old browsers */
 
 /* Resume Page css */
 .resume-right-col {
-  background: #141E30;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #243B55, #141E30);
+  background: grey; 
   color: white;
   padding: 2em;
 }
