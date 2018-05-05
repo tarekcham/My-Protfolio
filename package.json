@@ -2,6 +2,7 @@
   "name": "myportfoliosite",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tarekcham.github.io/MyProtfolio/",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",
@@ -10,7 +11,6 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.0"
   },
-  "homepage": "https://tarekcham.github.io/My-Protfolio/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
